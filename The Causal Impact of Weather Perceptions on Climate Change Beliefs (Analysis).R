@@ -6,7 +6,7 @@ library(statar)
 library(cowplot)
 
 # Data ---------------------------------------------------------------
-data <- data.table::fread("~/Dropbox (Univ. of Oklahoma)/EPSCoR/MSISNet Data/Weather Perceptions and Climate Change Beliefs/data.csv")
+data <- data.table::fread("https://www.dropbox.com/s/kltsmrnv1zddlkc/data.csv?dl=1")
 
 base_data <- data %>%
   group_by(p_id) %>%
